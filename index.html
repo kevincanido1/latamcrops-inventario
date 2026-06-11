@@ -684,18 +684,18 @@
   // ── GENERAR RESUMEN ────────────────────────────────────────
   // Cargar seguimiento desde localStorage si existe, sino usar datos iniciales
   const _datosIniciales = [{"vendedor": "EMILIO AVILA", "cliente": "JAIME SOLIZ", "producto": "SMART TRIO", "cantidad": "60", "precio": "60", "fecha": "2026-05-26", "entzona": "PUERTO RICO", "almacen": "PARQUE INDUSTRIAL", "estado": "PENDIENTE", "facturado": "NO", "obs": "CONSULTAR CON EL ING EMILIO", "sistema": "EXCEL", "tipo": "VENTA"}, {"vendedor": "EMILIO AVILA", "cliente": "AGROPECUARIA MODELO", "producto": "SIL X", "cantidad": "100", "precio": "100", "fecha": "2026-05-28", "entzona": "3 CRUCES", "almacen": "PARQUE INDUSTRIAL", "estado": "FACTURADO", "facturado": "SI", "obs": "FACTURADO", "sistema": "EN SISTEMA", "tipo": "VENTA"}, {"vendedor": "EMILIO AVILA", "cliente": "AGROPECUARIA MODELO", "producto": "SPRAY X", "cantidad": "12", "precio": "12", "fecha": "2026-05-28", "entzona": "3 CRUCES", "almacen": "PARQUE INDUSTRIAL", "estado": "FACTURADO", "facturado": "SI", "obs": "FACTURADO", "sistema": "EN SISTEMA", "tipo": "VENTA"}, {"vendedor": "ALMACEN DAVID KLASSEN BENI", "cliente": "ALMACEN DAVID KLASSEN", "producto": "PLANT START", "cantidad": "20", "precio": "20", "fecha": "2026-05-28", "entzona": "CASARABE", "almacen": "PARQUE INDUSTRIAL", "estado": "TRASPASO", "facturado": "TRASPASO", "obs": "TRASPASO", "sistema": "EN SISTEMA", "tipo": "TRASPASO"}, {"vendedor": "ALEXIS", "cliente": "BOLFARM", "producto": "COMPLETO", "cantidad": "20", "precio": "", "fecha": "2026-05-29", "entzona": "BOLFARM", "almacen": "PARQUE INDUSTRIAL", "estado": "TRASPASO BIOENSAYO", "facturado": "TRASPASO", "obs": "TRASPASO BIOENSAYO", "sistema": "EN SISTEMA", "tipo": "TRASPASO"}, {"vendedor": "EMILIO AVILA", "cliente": "AGROPECUARIA CONCESION", "producto": "K POTASIO", "cantidad": "180", "precio": "", "fecha": "2026-05-29", "entzona": "MIRAFLORES", "almacen": "PARQUE INDUSTRIAL", "estado": "FACTURADO", "facturado": "SI", "obs": "FACTURADO", "sistema": "EN SISTEMA", "tipo": "VENTA"}, {"vendedor": "EMILIO AVILA", "cliente": "ET YOTAU AGROPECUARIA", "producto": "K POTASIO", "cantidad": "100", "precio": "", "fecha": "2026-05-29", "entzona": "MIRAFLORES", "almacen": "PARQUE INDUSTRIAL", "estado": "FACTURADO", "facturado": "SI", "obs": "FACTURADO", "sistema": "EN SISTEMA", "tipo": "VENTA"}, {"vendedor": "ENSAYO", "cliente": "JULIO MORENO", "producto": "TRITEK", "cantidad": "20", "precio": "", "fecha": "2026-06-01", "entzona": "EL PORVENIR", "almacen": "PARQUE INDUSTRIAL", "estado": "TRASPASO", "facturado": "TRASPASO", "obs": "TRASPASO ALMACEN BIOENSAYO", "sistema": "EN SISTEMA", "tipo": "TRASPASO"}, {"vendedor": "ENSAYO", "cliente": "GRUPO DEANE", "producto": "SMART TRIO", "cantidad": "20", "precio": "", "fecha": "2026-06-01", "entzona": "SUELO RICO", "almacen": "PARQUE INDUSTRIAL", "estado": "TRASPASO", "facturado": "TRASPASO", "obs": "TRASPASO ALMACEN BIOENSAYO", "sistema": "EN SISTEMA", "tipo": "TRASPASO"}, {"vendedor": "ENSAYO", "cliente": "VIDAL CHOQUE", "producto": "SMART TRIO", "cantidad": "40", "precio": "", "fecha": "2026-06-01", "entzona": "PIRAI", "almacen": "PARQUE INDUSTRIAL", "estado": "TRASPASO", "facturado": "TRASPASO", "obs": "TRASPASO ALMACEN BIOENSAYO", "sistema": "EN SISTEMA", "tipo": "TRASPASO"}, {"vendedor": "EMILIO AVILA", "cliente": "TOMAS LUIS DEANE", "producto": "ACTION SIL", "cantidad": "24", "precio": "0", "fecha": "2026-06-02", "entzona": "SACRUZ", "almacen": "PARQUE INDUSTRIAL", "estado": "FACTURADO", "facturado": "SI", "obs": "FACTURADO", "sistema": "EN SISTEMA", "tipo": "VENTA"}, {"vendedor": "EMILIO AVILA", "cliente": "MATIAS KOOK WESKOTT", "producto": "ACTION SIL", "cantidad": "24", "precio": "0", "fecha": "2026-06-02", "entzona": "SACRUZ", "almacen": "PARQUE INDUSTRIAL", "estado": "FACTURADO", "facturado": "SI", "obs": "FACTURADO", "sistema": "EN SISTEMA", "tipo": "VENTA"}, {"vendedor": "EMILIO AVILA", "cliente": "MILAGRO LEUCONA DE PRADA", "producto": "ACTION SIL", "cantidad": "12", "precio": "0", "fecha": "2026-06-02", "entzona": "SAN PATRICIO", "almacen": "PARQUE INDUSTRIAL", "estado": "FACTURADO", "facturado": "SI", "obs": "FACTURADO", "sistema": "EN SISTEMA", "tipo": "VENTA"}, {"vendedor": "TRINIDAD", "cliente": "ALMACEN DAVID KLASSEN", "producto": "PLANT START", "cantidad": "100", "precio": "0", "fecha": "2026-06-02", "entzona": "CASARABIA", "almacen": "PARQUE INDUSTRIAL", "estado": "TRASPASO", "facturado": "TRASPASO", "obs": "TRASPASO ALMACEN TRINIDAD", "sistema": "EN SISTEMA", "tipo": "TRASPASO"}, {"vendedor": "EMILIO AVILA", "cliente": "DANIEL MISERENDINO", "producto": "SIL X", "cantidad": "6", "precio": "6", "fecha": "2026-06-02", "entzona": "EL PUENTE", "almacen": "PARQUE INDUSTRIAL", "estado": "PENDIENTE", "facturado": "NO", "obs": "PAGA FINAL CAMPAÑA/SACADO DE ALMACEN PI", "sistema": "EXCEL", "tipo": "VENTA"}, {"vendedor": "LATAMCROPS", "cliente": "LATAM CROPS", "producto": "SMART TRIO", "cantidad": "100", "precio": "100", "fecha": "2026-06-03", "entzona": "PROPIEDAD SAN J", "almacen": "PARQUE INDUSTRIAL", "estado": "PENDIENTE", "facturado": "NO", "obs": "PAGA FINAL CAMPAÑA/SACADO DE ALMACEN PI", "sistema": "EXCEL", "tipo": "VENTA"}, {"vendedor": "EMILIO AVILA", "cliente": "JUAN BAIOCCHI", "producto": "SMART TRIO", "cantidad": "40", "precio": "0", "fecha": "2026-06-03", "entzona": "SAN JOSE", "almacen": "PARQUE INDUSTRIAL", "estado": "FACTURADO", "facturado": "SI", "obs": "FACTURADO", "sistema": "EN SISTEMA", "tipo": "VENTA"}, {"vendedor": "EMILIO AVILA", "cliente": "JUAN BAIOCCHI", "producto": "SIL X", "cantidad": "24", "precio": "0", "fecha": "2026-06-03", "entzona": "SAN JOSE", "almacen": "PARQUE INDUSTRIAL", "estado": "FACTURADO", "facturado": "SI", "obs": "FACTURADO", "sistema": "EN SISTEMA", "tipo": "VENTA"}, {"vendedor": "TRASPASO SAGRADO - AGROSEM", "cliente": "TRASPASO SAGRADO - AGROSEM", "producto": "SMART TRIO", "cantidad": "500", "precio": "500", "fecha": "2026-06-02", "entzona": "AGROSEM", "almacen": "SAGRADO CORAZON - AGROSEM", "estado": "PENDIENTE", "facturado": "NO", "obs": "PAGA FINAL CAMPAÑA/SACADO DE ALMACEN PI", "sistema": "NO EN SISTEMA", "tipo": "VENTA"}, {"vendedor": "SERGIO GARECA", "cliente": "JOSEFINA AGROPECUARIA", "producto": "SIL X", "cantidad": "24", "precio": "0", "fecha": "2026-06-04", "entzona": "JOSEFINA AGROPECUARIA", "almacen": "PARQUE INDUSTRIAL", "estado": "FACTURADO", "facturado": "SI", "obs": "FACTURADO", "sistema": "EN SISTEMA", "tipo": "VENTA"}, {"vendedor": "EMILIO AVILA", "cliente": "BENJAMIN PETERS", "producto": "SPRAY X", "cantidad": "94", "precio": "", "fecha": "2026-06-06", "entzona": "BENJAMIN PETER", "almacen": "PARQUE INDUSTRIAL", "estado": "PENDIENTE", "facturado": "NO", "obs": "PAGA FINAL CAMPAÑA/SACADO DE ALMACEN PI", "sistema": "EXCEL", "tipo": "VENTA"}, {"vendedor": "EMILIO AVILA", "cliente": "AGROPECUARIA MODELO", "producto": "SPRAY X", "cantidad": "2", "precio": "2", "fecha": "2026-07-06", "entzona": "SANTA JOSEFINA", "almacen": "PARQUE INDUSTRIAL", "estado": "FACTURADO", "facturado": "SI", "obs": "FACTURADO", "sistema": "EN SISTEMA", "tipo": "VENTA"}, {"vendedor": "ENSAYO", "cliente": "CARO", "producto": "COBRE", "cantidad": "20", "precio": "20", "fecha": "2026-06-09", "entzona": "BOLFARM", "almacen": "PARQUE INDUSTRIAL", "estado": "ENSAYO", "facturado": "NO", "obs": "ENSAYO", "sistema": "EXCEL", "tipo": "ENSAYO"}, {"vendedor": "ENSAYO", "cliente": "CARO", "producto": "BMOLY", "cantidad": "20", "precio": "", "fecha": "2026-06-09", "entzona": "BOLFARM", "almacen": "PARQUE INDUSTRIAL", "estado": "ENSAYO", "facturado": "NO", "obs": "ENSAYO", "sistema": "EXCEL", "tipo": "ENSAYO"}, {"vendedor": "TRASPASO TRINIDAD", "cliente": "TRINIDAD", "producto": "TRITECK", "cantidad": "200", "precio": "0", "fecha": "2026-06-09", "entzona": "TRINIDAD", "almacen": "PARQUE INDUSTRIAL", "estado": "TRASPASO TRINIDAD", "facturado": "SI", "obs": "TRASPASO TRINIDAD", "sistema": "EN SISTEMA", "tipo": "TRASPASO"}, {"vendedor": "AGROSEM", "cliente": "JOSE LUIS MONTAÑO", "producto": "SMART TRIO", "cantidad": "500", "precio": "500", "fecha": "2026-06-08", "entzona": "AGROSEM", "almacen": "PARQUE INDUSTRIAL", "estado": "PENDIENTE", "facturado": "NO", "obs": "PENDIENTE", "sistema": "NO EN SISTEMA", "tipo": "VENTA"}];
-  let registrosSeg = [];
-  // carga inicial desde Supabase
-  async function iniciarSeguimiento() {
+  let registrosSeg = (() => {
     try {
-      const r = await fetch(SB_URL+'/rest/v1/seguimiento_latamcrops?select=*&order=creado_en.desc', {headers:{'apikey':SB_KEY,'Authorization':'Bearer '+SB_KEY}});
-      const data = await r.json();
-      if (data && Array.isArray(data) && data.length > 0) {
-        registrosSeg = data.map(r => ({_id:r.id,vendedor:r.vendedor||'',cliente:r.cliente||'',producto:r.producto||'',cantidad:r.cantidad||0,nronota:r.nro_nota||'',fecha:r.fecha||'',entzona:r.entre_zona||'',almacen:r.almacen||'',tipo:r.tipo||'VENTA',estado:r.estado||'PENDIENTE',facturado:r.facturado||'NO',obs:r.observaciones||'',sistema:r.sistema||'NO EN SISTEMA'}));
-      } else { registrosSeg = _datosIniciales; }
-    } catch(e) { registrosSeg = _datosIniciales; }
-    renderSeguimiento();
-  }
+      const saved = localStorage.getItem('lc_seguimiento');
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+      }
+    } catch(e) {}
+    return _datosIniciales;
+  })();
+
+  function clasificar(r) {
     const e = (r.estado||'').toUpperCase();
     if (e.includes('ENSAYO')) return 'ensayo';
     if (e.includes('TRASPASO')) return 'traspaso';
@@ -732,23 +732,6 @@
       'COMPLETO':'BRANDT COMPLETO','COBRE':'BRANDT COBRE','TRITEK 20':'BRANDT TRITEK 20 L',
       'TRITECK':'BRANDT TRITEK 20 L','TRITEK 5':'BRANDT TRITEK 5 L','TRITEK':'BRANDT TRITEK 20 L',
       'PLANT START':'BRANDT PLANT START',
-      'BRANDT SMART TRIO X 20 L':'BRAND SMART TRIO',
-      'BRANDT SMART TRIO X 20':'BRAND SMART TRIO',
-      'BRANDT SMART TRIO':'BRAND SMART TRIO',
-      'SMART TRIO X 20':'BRAND SMART TRIO',
-      'BRANDT MANNI PLEX B MOLY':'BRAND B MOLY',
-      'BRANDT MANNI PLEX K':'BRANDT K',
-      'BRANDT ACTION SIL':'BRANDT ACTION SIL',
-      'BRANDT ACTION SPRAY':'BRANDT ACTION SPRAY',
-      'BRANDT PLAN STAR X 5':'BRANDT PLANT START',
-      'BRANDT PLAN STAR':'BRANDT PLANT START',
-      'PLANT STAR':'BRANDT PLANT START',
-      'BRANDT COMPLETO':'BRANDT COMPLETO',
-      'BRANDT COBRE':'BRANDT COBRE',
-      'BRANDT TRITEK 20':'BRANDT TRITEK 20 L',
-      'BRANDT TRITEK 5':'BRANDT TRITEK 5 L',
-      'BRANDT TRITEK':'BRANDT TRITEK 20 L',
-      'TRITECK':'BRANDT TRITEK 20 L',
     };
     const pendientesPI = {};
     if (esParqueIndustrial) {
@@ -887,7 +870,7 @@
     el.classList.add('activo');
     document.getElementById('tab-'+tab).classList.add('activo');
     if (tab==='control') iniciarControl();
-    if (tab==='seguimiento') { iniciarSeguimiento(); }
+    if (tab==='seguimiento') renderSeguimiento();
   }
 
   // ── PRODUCTOS POR ALMACÉN ──────────────────────────────────
@@ -1606,7 +1589,6 @@ Solo incluye productos que aparecen en la imagen con cantidad mayor a 0.`;
     try {
       localStorage.setItem('lc_seguimiento', JSON.stringify(registrosSeg));
     } catch(e) { console.warn('No se pudo guardar seguimiento:', e); }
-    sbSave(registrosSeg[registrosSeg.length-1]);
   }
 
   function renderSeguimiento() {
@@ -1997,21 +1979,16 @@ Solo incluye productos que aparecen en la imagen con cantidad mayor a 0.`;
 const SB_URL = 'https://bhyzehvqnxhshceltglx.supabase.co';
 const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJoeXplaHZxbnhoc2hjZWx0Z2x4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEwNTI4NzcsImV4cCI6MjA5NjYyODg3N30.J_AOws1kY5JJUzO_m3ugiH_jPrB4vYct00HGv7LInbA';
 async function sbSave(r) {
+  if (!r) return;
   try {
     await fetch(SB_URL+'/rest/v1/seguimiento_latamcrops', {
       method:'POST',
       headers:{'apikey':SB_KEY,'Authorization':'Bearer '+SB_KEY,'Content-Type':'application/json','Prefer':'return=minimal'},
       body:JSON.stringify({vendedor:r.vendedor,cliente:r.cliente,producto:r.producto,cantidad:parseFloat(r.cantidad)||0,nro_nota:r.nronota||'',fecha:r.fecha||null,entre_zona:r.entzona||'',almacen:r.almacen,tipo:r.tipo||'VENTA',estado:r.estado||'PENDIENTE',facturado:r.facturado||'NO',observaciones:r.obs||'',sistema:r.sistema||'NO EN SISTEMA'})
     });
-    console.log('Guardado en Supabase');
-  } catch(e) { console.warn('Error Supabase:', e); }
+  } catch(e) { console.warn('Supabase error:', e); }
 }
 </script>
 </body>
 </html>
-
-
-
-
-
 
