@@ -1606,6 +1606,7 @@ Solo incluye productos que aparecen en la imagen con cantidad mayor a 0.`;
     try {
       localStorage.setItem('lc_seguimiento', JSON.stringify(registrosSeg));
     } catch(e) { console.warn('No se pudo guardar seguimiento:', e); }
+    sbSave(registrosSeg[registrosSeg.length-1]);
   }
 
   function renderSeguimiento() {
@@ -2008,6 +2009,7 @@ async function sbSave(r) {
 </script>
 </body>
 </html>
+
 
 
 
